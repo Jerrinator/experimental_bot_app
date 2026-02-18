@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>InfoNinja</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-left">
+            <h1>Unlocking A.I.</h1>
+            <h2>InfoNinja 📚🔍</h2>
+        </div>
+        <div class="header-right">
+            <span id="user-email">admin@unlocking.ai</span>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>InfoNinja 📚🔍</h1>
+        <p>📌 AI-Powered Research Assistant 📊</p>
+        <p>🎓 Your Professional Research Partner 🎓</p>
+        <p>📚 Upload documents and let InfoNinja analyze your content 📚</p>
+        <p>📊 Transform your research workflow with InfoNinja's professional assistance 📊</p>
+    </section>
+
+    <section class="interface">
+        <h2>InfoNinja Research Interface</h2>
+
+        <div class="features-list">
+            <p>💬 Features:</p>
+            <ul>
+                <li>📌 URL analysis for web content</li>
+                <li>📚 Citation generation with page numbers</li>
+                <li>📊 Research organization</li>
+                <li>📄 PDF creation and download</li>
+                <li>💡 Intelligent conversation system</li>
+            </ul>
+        </div>
+
+        <div id="chat-container" class="chat-container">
+            <div id="chat-window"></div>
+
+            <div class="input-row">
+                <input id="chat-input" type="text" placeholder="Type your message here...">
+                <button id="send-btn">Send</button>
+            </div>
+
+            <div class="upload-row">
+                <input id="file-upload" type="file" multiple>
+            </div>
+
+            <div class="url-row">
+                <input id="url-input" type="text" placeholder="Enter URL to scrape...">
+                <button id="url-add-btn">Add</button>
+            </div>
+
+            <div class="voice-row">
+                <button id="record-btn">Hold to Record</button>
+                <select id="voice-select">
+                    <option value="alloy">Alloy</option>
+                </select>
+                <button id="play-btn">Play</button>
+                <label>
+                    <input type="checkbox" id="auto-tts"> Auto TTS
+                </label>
+            </div>
+
+            <div class="export-row">
+                <button id="export-pdf-btn">Export PDF</button>
+                <button id="print-btn">Print</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h3>Unlocking A.I.</h3>
+        <p>Human Enhancement Reasoning Optimization and Education System</p>
+
+        <div class="footer-columns">
+            <div>
+                <h4>Features</h4>
+                <ul>
+                    <li>URL analysis for web content</li>
+                    <li>Citation generation with page numbers</li>
+                    <li>Research organization</li>
+                    <li>PDF creation and download</li>
+                    <li>Intelligent conversation system</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Legal</h4>
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+    <script src="/static/js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1102 @@
+2025-08-23 20:45:37,169 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250823_204537_4584918c ===
+2025-08-23 20:45:37,169 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-23 20:45:37,169 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250823_204537_8d0cd3e8",
+  "description": "Add LLM fallback+debug log",
+  "start_time": "2025-08-23T20:45:37.169349",
+  "edit_count": 0
+}
+2025-08-23 20:45:44,669 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250823_204544_ed4cd217 ===
+2025-08-23 20:45:44,670 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "app.py",
+  "snapshot_time": "2025-08-23T20:45:44.670220",
+  "file_hash": "ee73a389449defe5",
+  "line_count": 1734
+}
+2025-08-23 20:48:16,444 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250823_204816_3f5ba923 ===
+2025-08-23 20:48:26,905 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250823_204826_197830a1 ===
+2025-08-23 20:48:26,906 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-23 20:48:26,906 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250823_204826_905516_0000",
+  "session_id": "SESSION_20250823_204826_197830a1",
+  "file_path": "app.py",
+  "operation": "replace",
+  "lines_before": "1-1767",
+  "lines_after": "1-1767",
+  "intent": "REQ_20250823_204537_001",
+  "hash_before": "8884c65a5b1fa6ed",
+  "hash_after": "8884c65a5b1fa6ed",
+  "copilot_request": null
+}
+2025-08-23 20:48:26,906 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250823_204826_905516_0000:
+2025-08-23 20:48:26,906 [EDIT_INFO] ```
+Added LLM fallback+debug logging
+```
+2025-08-23 20:48:26,907 [EDIT_INFO] CONTENT_ADDED_EDIT_20250823_204826_905516_0000:
+2025-08-23 20:48:26,907 [EDIT_INFO] ```
+Added defensive fallback when assistant content empty and debug logs for full LLM response
+```
+2025-08-23 20:48:26,907 [EDIT_INFO] DIFF_EDIT_20250823_204826_905516_0000:
+2025-08-23 20:48:26,907 [EDIT_INFO] DIFF_LINE: --- app.py (before)
+2025-08-23 20:48:26,907 [EDIT_INFO] DIFF_LINE: +++ app.py (after)
+2025-08-23 20:48:26,907 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-23 20:48:26,907 [EDIT_INFO] DIFF_LINE: -Added LLM fallback+debug logging
+2025-08-23 20:48:26,907 [EDIT_INFO] DIFF_LINE: +Added defensive fallback when assistant content empty and debug logs for full LLM response
+2025-08-23 20:48:49,684 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250823_204849_e21371b2 ===
+2025-08-23 20:56:03,222 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250823_205603_70f0a1cc ===
+2025-08-23 20:56:03,223 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-23 20:56:03,223 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250823_205603_921f072b",
+  "description": "Log full LLM response at INFO when empty",
+  "start_time": "2025-08-23T20:56:03.223816",
+  "edit_count": 0
+}
+2025-08-23 20:56:37,128 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250823_205637_c7df441b ===
+2025-08-23 20:56:37,130 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-23 20:56:37,131 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250823_205637_128840_0000",
+  "session_id": "SESSION_20250823_205637_c7df441b",
+  "file_path": "app.py",
+  "operation": "replace",
+  "lines_before": "1-1772",
+  "lines_after": "1-1772",
+  "intent": "REQ_20250823_205603_001",
+  "hash_before": "20d1a796b9eb0b03",
+  "hash_after": "20d1a796b9eb0b03",
+  "copilot_request": null
+}
+2025-08-23 20:56:37,131 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250823_205637_128840_0000:
+2025-08-23 20:56:37,131 [EDIT_INFO] ```
+Log full LLM response at INFO when empty
+```
+2025-08-23 20:56:37,131 [EDIT_INFO] CONTENT_ADDED_EDIT_20250823_205637_128840_0000:
+2025-08-23 20:56:37,131 [EDIT_INFO] ```
+Log full LLM response at INFO when assistant content empty for diagnosis
+```
+2025-08-23 20:56:37,131 [EDIT_INFO] DIFF_EDIT_20250823_205637_128840_0000:
+2025-08-23 20:56:37,131 [EDIT_INFO] DIFF_LINE: --- app.py (before)
+2025-08-23 20:56:37,131 [EDIT_INFO] DIFF_LINE: +++ app.py (after)
+2025-08-23 20:56:37,131 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-23 20:56:37,131 [EDIT_INFO] DIFF_LINE: -Log full LLM response at INFO when empty
+2025-08-23 20:56:37,131 [EDIT_INFO] DIFF_LINE: +Log full LLM response at INFO when assistant content empty for diagnosis
+2025-08-23 20:57:07,488 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250823_205707_abdd6d3d ===
+2025-08-23 20:58:58,324 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250823_205858_ae019586 ===
+2025-08-23 20:58:58,324 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-23 20:58:58,324 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250823_205858_544dd5dc",
+  "description": "Add robust LLM extraction for reasoning/tool_calls",
+  "start_time": "2025-08-23T20:58:58.324921",
+  "edit_count": 0
+}
+2025-08-24 10:41:02,495 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_104102_92dfa7dd ===
+2025-08-24 10:41:02,496 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-24 10:41:02,496 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250824_104102_961bac69",
+  "description": "Add LLM-driven search query step",
+  "start_time": "2025-08-24T10:41:02.495992",
+  "edit_count": 0
+}
+2025-08-24 10:41:02,542 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_104102_506bea4a ===
+2025-08-24 10:41:02,543 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "app.py",
+  "snapshot_time": "2025-08-24T10:41:02.543020",
+  "file_hash": "6680d088d4f828d5",
+  "line_count": 1920
+}
+2025-08-24 10:49:53,145 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_104953_8181bd27 ===
+2025-08-24 10:49:53,145 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-24 10:49:53,145 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250824_104953_145585_0000",
+  "session_id": "SESSION_20250824_104953_8181bd27",
+  "file_path": "docs/last_good_deployment.md",
+  "operation": "add",
+  "lines_before": "1-1",
+  "lines_after": "1-10",
+  "intent": "Add last_good_deployment marker",
+  "hash_before": "e18de82e0fe73f2c",
+  "hash_after": "e18de82e0fe73f2c",
+  "copilot_request": null
+}
+2025-08-24 10:49:53,145 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250824_104953_145585_0000:
+2025-08-24 10:49:53,145 [EDIT_INFO] ```
+
+```
+2025-08-24 10:49:53,145 [EDIT_INFO] CONTENT_ADDED_EDIT_20250824_104953_145585_0000:
+2025-08-24 10:49:53,145 [EDIT_INFO] ```
+# Last good deployment
+
+- deployment_id: a8e13202
+- recorded_at_utc: 2025-08-24T15:48:07Z
+- branch: master
+
+Notes:
+- This commit (`a8e13202`) is the currently known-good deployment state for rollback.
+- Use this file as the authoritative point to cut ties with a dev branch and revert to a stable release.
+
+```
+2025-08-24 10:51:50,990 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_105150_6e133cbe ===
+2025-08-24 10:51:50,991 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-24 10:51:50,992 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250824_105150_990421_0000",
+  "session_id": "SESSION_20250824_105150_6e133cbe",
+  "file_path": "app.py",
+  "operation": "replace",
+  "lines_before": "1-1956",
+  "lines_after": "1-1956",
+  "intent": "Add helper LLM call to produce search query for auto-search",
+  "hash_before": "caf7a1d601904b9f",
+  "hash_after": "caf7a1d601904b9f",
+  "copilot_request": null
+}
+2025-08-24 10:51:50,992 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250824_105150_990421_0000:
+2025-08-24 10:51:50,992 [EDIT_INFO] ```
+search_results = self._auto_search_results(message)
+```
+2025-08-24 10:51:50,992 [EDIT_INFO] CONTENT_ADDED_EDIT_20250824_105150_990421_0000:
+2025-08-24 10:51:50,992 [EDIT_INFO] ```
+# LLM-driven search query helper: ask the assistant to suggest a concise search query, then use it for auto-search
+suggested_query = None
+try:
+    # Build a small prompt asking the assistant to return a short search query or keywords only.
+    search_system = "You are a concise assistant that, when given a user's request and recent conversation history, returns a single short search query (no commentary). Respond with only the search query suitable for use with a web search API."
+    # Reuse history_messages prepared earlier (if any)
+    search_messages = [{"role": "system", "content": search_system}] + history_messages + [{"role": "user", "content": f"Generate a one-line search query for this user request: {message}"}]
+
+    # Use a small token budget for this helper call
+    helper_max_tokens = 64
+    helper_model = os.getenv('CHAT_MODEL', 'gpt-4')
+    helper_temperature = float(os.getenv('CHAT_TEMPERATURE', '0.2')) if not helper_model.lower().startswith('gpt-5') else 1.0
+
+    helper_resp = self.openai_client.chat.completions.create(
+        model=helper_model,
+        messages=search_messages,
+        max_completion_tokens=helper_max_tokens,
+        temperature=helper_temperature
+    )
+
+    # Extract suggested query
+    try:
+        helper_json = helper_resp.to_dict()
+    except Exception:
+        helper_json = str(helper_resp)
+
+    helper_text = self._extract_llm_message(helper_resp)
+    if helper_text and isinstance(helper_text, str):
+        # Keep only the first line and strip whitespace
+        suggested_query = helper_text.splitlines()[0].strip()
+except Exception:
+    # Non-fatal: fall back to using the raw user message
+    suggested_query = None
+
+# Auto-search: attempt to fetch top results for the suggested query (fallback to the raw message)
+query_for_search = suggested_query if suggested_query else message
+search_results = self._auto_search_results(query_for_search)
+
+```
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_EDIT_20250824_105150_990421_0000:
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: --- app.py (before)
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +++ app.py (after)
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: @@ -1 +1,37 @@
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: -search_results = self._auto_search_results(message)
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +# LLM-driven search query helper: ask the assistant to suggest a concise search query, then use it for auto-search
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +suggested_query = None
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +try:
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    # Build a small prompt asking the assistant to return a short search query or keywords only.
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    search_system = "You are a concise assistant that, when given a user's request and recent conversation history, returns a single short search query (no commentary). Respond with only the search query suitable for use with a web search API."
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    # Reuse history_messages prepared earlier (if any)
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    search_messages = [{"role": "system", "content": search_system}] + history_messages + [{"role": "user", "content": f"Generate a one-line search query for this user request: {message}"}]
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    # Use a small token budget for this helper call
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    helper_max_tokens = 64
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    helper_model = os.getenv('CHAT_MODEL', 'gpt-4')
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    helper_temperature = float(os.getenv('CHAT_TEMPERATURE', '0.2')) if not helper_model.lower().startswith('gpt-5') else 1.0
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    helper_resp = self.openai_client.chat.completions.create(
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +        model=helper_model,
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +        messages=search_messages,
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +        max_completion_tokens=helper_max_tokens,
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +        temperature=helper_temperature
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    )
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    # Extract suggested query
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    try:
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +        helper_json = helper_resp.to_dict()
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    except Exception:
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +        helper_json = str(helper_resp)
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    helper_text = self._extract_llm_message(helper_resp)
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    if helper_text and isinstance(helper_text, str):
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +        # Keep only the first line and strip whitespace
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +        suggested_query = helper_text.splitlines()[0].strip()
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +except Exception:
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    # Non-fatal: fall back to using the raw user message
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +    suggested_query = None
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +# Auto-search: attempt to fetch top results for the suggested query (fallback to the raw message)
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +query_for_search = suggested_query if suggested_query else message
+2025-08-24 10:51:50,992 [EDIT_INFO] DIFF_LINE: +search_results = self._auto_search_results(query_for_search)
+2025-08-24 11:03:29,815 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_110329_c103a241 ===
+2025-08-24 11:03:29,815 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-24 11:03:29,815 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250824_110329_b588d45e",
+  "description": "Remove intermediate auto-search LLM call; inject search into final prompt",
+  "start_time": "2025-08-24T11:03:29.815466",
+  "edit_count": 0
+}
+2025-08-24 11:03:29,816 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "app.py",
+  "snapshot_time": "2025-08-24T11:03:29.816056",
+  "file_hash": "caf7a1d601904b9f",
+  "line_count": 1956
+}
+2025-08-24 11:15:34,986 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_111534_30824636 ===
+2025-08-24 11:15:34,986 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-24 11:15:34,986 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250824_111534_40faa0c4",
+  "description": "Surgical: ensure single LLM call with search injection",
+  "start_time": "2025-08-24T11:15:34.986685",
+  "edit_count": 0
+}
+2025-08-24 11:16:11,824 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_111611_23e9ea1e ===
+2025-08-24 11:16:11,824 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "app.py",
+  "snapshot_time": "2025-08-24T11:16:11.824597",
+  "file_hash": "94a1459bf669e940",
+  "line_count": 1902
+}
+2025-08-24 11:19:08,010 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_111908_eb56d66a ===
+2025-08-24 11:19:15,320 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_111915_f8ccbef5 ===
+2025-08-24 11:19:15,321 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-24 11:19:15,321 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250824_111915_320171_0000",
+  "session_id": "SESSION_20250824_111915_f8ccbef5",
+  "file_path": "app.py",
+  "operation": "replace",
+  "lines_before": "1-1903",
+  "lines_after": "1-1903",
+  "intent": "REQ_20250824_111534_revert",
+  "hash_before": "4a37f36d4be04831",
+  "hash_after": "4a37f36d4be04831",
+  "copilot_request": null
+}
+2025-08-24 11:19:15,321 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250824_111915_320171_0000:
+2025-08-24 11:19:15,321 [EDIT_INFO] ```
+temporary single-call change
+```
+2025-08-24 11:19:15,321 [EDIT_INFO] CONTENT_ADDED_EDIT_20250824_111915_320171_0000:
+2025-08-24 11:19:15,321 [EDIT_INFO] ```
+restored helper LLM search query + auto-search prompt; final LLM receives history+search results
+```
+2025-08-24 11:19:15,321 [EDIT_INFO] DIFF_EDIT_20250824_111915_320171_0000:
+2025-08-24 11:19:15,321 [EDIT_INFO] DIFF_LINE: --- app.py (before)
+2025-08-24 11:19:15,321 [EDIT_INFO] DIFF_LINE: +++ app.py (after)
+2025-08-24 11:19:15,321 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-24 11:19:15,321 [EDIT_INFO] DIFF_LINE: -temporary single-call change
+2025-08-24 11:19:15,321 [EDIT_INFO] DIFF_LINE: +restored helper LLM search query + auto-search prompt; final LLM receives history+search results
+2025-08-24 11:36:21,235 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_113621_a50a5d9f ===
+2025-08-24 11:36:21,235 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-24 11:36:21,235 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250824_113621_ad18fea8",
+  "description": "Update last_good_deployment.md: record current deploy and notes",
+  "start_time": "2025-08-24T11:36:21.235556",
+  "edit_count": 0
+}
+2025-08-24 11:36:40,141 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_113640_de8f8e37 ===
+2025-08-24 11:36:40,141 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "docs/last_good_deployment.md",
+  "snapshot_time": "2025-08-24T11:36:40.141715",
+  "file_hash": "e18de82e0fe73f2c",
+  "line_count": 10
+}
+2025-08-24 11:37:32,677 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_113732_368cb119 ===
+2025-08-24 11:37:32,678 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-24 11:37:32,678 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250824_113732_677943_0000",
+  "session_id": "SESSION_20250824_113732_368cb119",
+  "file_path": "docs/last_good_deployment.md",
+  "operation": "update",
+  "lines_before": "1-19",
+  "lines_after": "1-19",
+  "intent": "REQ_20250824_113621",
+  "hash_before": "e53550dd53c84b81",
+  "hash_after": "e53550dd53c84b81",
+  "copilot_request": null
+}
+2025-08-24 11:37:32,678 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250824_113732_677943_0000:
+2025-08-24 11:37:32,678 [EDIT_INFO] ```
+append current deployment and notes
+```
+2025-08-24 11:37:32,678 [EDIT_INFO] CONTENT_ADDED_EDIT_20250824_113732_677943_0000:
+2025-08-24 11:37:32,678 [EDIT_INFO] ```
+update last_good_deployment with new deployment id and next-issue note
+```
+2025-08-24 11:37:32,678 [EDIT_INFO] DIFF_EDIT_20250824_113732_677943_0000:
+2025-08-24 11:37:32,678 [EDIT_INFO] DIFF_LINE: --- docs/last_good_deployment.md (before)
+2025-08-24 11:37:32,678 [EDIT_INFO] DIFF_LINE: +++ docs/last_good_deployment.md (after)
+2025-08-24 11:37:32,678 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-24 11:37:32,678 [EDIT_INFO] DIFF_LINE: -append current deployment and notes
+2025-08-24 11:37:32,678 [EDIT_INFO] DIFF_LINE: +update last_good_deployment with new deployment id and next-issue note
+2025-08-24 11:39:04,674 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_113904_975734f9 ===
+2025-08-24 11:39:04,674 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-24 11:39:04,674 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250824_113904_209fb681",
+  "description": "Inject uploaded docs into final prompt",
+  "start_time": "2025-08-24T11:39:04.674447",
+  "edit_count": 0
+}
+2025-08-24 11:39:04,736 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_113904_a284abeb ===
+2025-08-24 11:39:04,737 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "document_loader.py",
+  "snapshot_time": "2025-08-24T11:39:04.737585",
+  "file_hash": "46bcfacaee7255be",
+  "line_count": 161
+}
+2025-08-24 11:39:04,739 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "app.py",
+  "snapshot_time": "2025-08-24T11:39:04.738930",
+  "file_hash": "4a37f36d4be04831",
+  "line_count": 1903
+}
+2025-08-24 11:41:40,923 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_114140_834dbf16 ===
+2025-08-24 11:41:40,925 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-24 11:41:40,925 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250824_114140_923198_0000",
+  "session_id": "SESSION_20250824_114140_834dbf16",
+  "file_path": "app.py",
+  "operation": "replace",
+  "lines_before": "1-1941",
+  "lines_after": "1-1941",
+  "intent": "Inject uploaded documents into final LLM prompt",
+  "hash_before": "dbc567c23bd2d3a0",
+  "hash_after": "dbc567c23bd2d3a0",
+  "copilot_request": "REQ_INJECT_DOCS_001"
+}
+2025-08-24 11:41:40,925 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250824_114140_923198_0000:
+2025-08-24 11:41:40,926 [EDIT_INFO] ```
+see snapshot SESSION_20250824_113904_209fb681
+```
+2025-08-24 11:41:40,926 [EDIT_INFO] CONTENT_ADDED_EDIT_20250824_114140_923198_0000:
+2025-08-24 11:41:40,926 [EDIT_INFO] ```
+Injected user-uploaded documents into final LLM prompt and messages (max 5 docs, no truncation).
+```
+2025-08-24 11:41:40,926 [EDIT_INFO] DIFF_EDIT_20250824_114140_923198_0000:
+2025-08-24 11:41:40,926 [EDIT_INFO] DIFF_LINE: --- app.py (before)
+2025-08-24 11:41:40,926 [EDIT_INFO] DIFF_LINE: +++ app.py (after)
+2025-08-24 11:41:40,926 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-24 11:41:40,926 [EDIT_INFO] DIFF_LINE: -see snapshot SESSION_20250824_113904_209fb681
+2025-08-24 11:41:40,926 [EDIT_INFO] DIFF_LINE: +Injected user-uploaded documents into final LLM prompt and messages (max 5 docs, no truncation).
+2025-08-24 11:41:40,926 [EDIT_INFO] EDIT_VALIDATION: {
+  "edit_id": "EDIT_20250824_114140_923198_0000",
+  "validation_status": "success",
+  "validation_time": "2025-08-24T11:41:40.926447",
+  "error_details": "Applied injection of uploaded documents into prompts"
+}
+2025-08-24 11:46:26,623 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_114626_858d5974 ===
+2025-08-24 11:46:26,624 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "app.py",
+  "snapshot_time": "2025-08-24T11:46:26.624620",
+  "file_hash": "dbc567c23bd2d3a0",
+  "line_count": 1941
+}
+2025-08-24 11:47:34,031 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_114734_e77412df ===
+2025-08-24 11:47:34,033 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-24 11:47:34,033 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250824_114734_031192_0000",
+  "session_id": "SESSION_20250824_114734_e77412df",
+  "file_path": "app.py",
+  "operation": "replace",
+  "lines_before": "1-1954",
+  "lines_after": "1-1954",
+  "intent": "Make model treat uploaded docs as pages in hand and encourage quoting",
+  "hash_before": "2d4c9dc55ad1202e",
+  "hash_after": "2d4c9dc55ad1202e",
+  "copilot_request": "REQ_INJECT_DOCS_002"
+}
+2025-08-24 11:47:34,033 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250824_114734_031192_0000:
+2025-08-24 11:47:34,033 [EDIT_INFO] ```
+previous system doc injection
+```
+2025-08-24 11:47:34,033 [EDIT_INFO] CONTENT_ADDED_EDIT_20250824_114734_031192_0000:
+2025-08-24 11:47:34,033 [EDIT_INFO] ```
+Change system doc injection wording to treat docs as pages in hand and encourage quoting
+```
+2025-08-24 11:47:34,033 [EDIT_INFO] DIFF_EDIT_20250824_114734_031192_0000:
+2025-08-24 11:47:34,033 [EDIT_INFO] DIFF_LINE: --- app.py (before)
+2025-08-24 11:47:34,034 [EDIT_INFO] DIFF_LINE: +++ app.py (after)
+2025-08-24 11:47:34,034 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-24 11:47:34,034 [EDIT_INFO] DIFF_LINE: -previous system doc injection
+2025-08-24 11:47:34,034 [EDIT_INFO] DIFF_LINE: +Change system doc injection wording to treat docs as pages in hand and encourage quoting
+2025-08-24 11:47:34,034 [EDIT_INFO] EDIT_VALIDATION: {
+  "edit_id": "EDIT_20250824_114734_031192_0000",
+  "validation_status": "success",
+  "validation_time": "2025-08-24T11:47:34.034210",
+  "error_details": "Updated system doc injection wording"
+}
+2025-08-24 12:13:03,049 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_121303_ab3a9336 ===
+2025-08-24 12:13:03,050 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-24 12:13:03,050 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250824_121303_234c9090",
+  "description": "Update last_good_deployment.md for commit a209432a",
+  "start_time": "2025-08-24T12:13:03.050084",
+  "edit_count": 0
+}
+2025-08-24 12:13:03,050 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "docs/last_good_deployment.md",
+  "snapshot_time": "2025-08-24T12:13:03.050270",
+  "file_hash": "e53550dd53c84b81",
+  "line_count": 19
+}
+2025-08-24 12:14:01,622 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_121401_05db48d5 ===
+2025-08-24 12:14:01,622 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-24 12:14:01,622 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250824_121401_622585_0000",
+  "session_id": "SESSION_20250824_121401_05db48d5",
+  "file_path": "docs/last_good_deployment.md",
+  "operation": "update",
+  "lines_before": "1-26",
+  "lines_after": "1-26",
+  "intent": "Document last good deployment changes for a209432",
+  "hash_before": "4e51ab176683b69c",
+  "hash_after": "4e51ab176683b69c",
+  "copilot_request": "REQ_DOCS_UPDATE_002"
+}
+2025-08-24 12:14:01,622 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250824_121401_622585_0000:
+2025-08-24 12:14:01,622 [EDIT_INFO] ```
+previous last_good_deployment.md content
+```
+2025-08-24 12:14:01,622 [EDIT_INFO] CONTENT_ADDED_EDIT_20250824_121401_622585_0000:
+2025-08-24 12:14:01,622 [EDIT_INFO] ```
+appended update for a209432 and pages-in-hand instruction
+```
+2025-08-24 12:14:01,623 [EDIT_INFO] DIFF_EDIT_20250824_121401_622585_0000:
+2025-08-24 12:14:01,623 [EDIT_INFO] DIFF_LINE: --- docs/last_good_deployment.md (before)
+2025-08-24 12:14:01,623 [EDIT_INFO] DIFF_LINE: +++ docs/last_good_deployment.md (after)
+2025-08-24 12:14:01,623 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-24 12:14:01,623 [EDIT_INFO] DIFF_LINE: -previous last_good_deployment.md content
+2025-08-24 12:14:01,623 [EDIT_INFO] DIFF_LINE: +appended update for a209432 and pages-in-hand instruction
+2025-08-24 12:14:01,623 [EDIT_INFO] EDIT_VALIDATION: {
+  "edit_id": "EDIT_20250824_121401_622585_0000",
+  "validation_status": "success",
+  "validation_time": "2025-08-24T12:14:01.623233",
+  "error_details": "Updated docs/last_good_deployment.md for commit a209432"
+}
+2025-08-24 12:15:51,863 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_121551_e89abdb4 ===
+2025-08-24 12:15:51,863 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-24 12:15:51,864 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250824_121551_0f53dbdc",
+  "description": "Create edit record docs/edit_record_2025-08-24T17-15-51Z.md",
+  "start_time": "2025-08-24T12:15:51.863965",
+  "edit_count": 0
+}
+2025-08-24 12:15:51,864 [EDIT_ERROR] Failed to read file docs/edit_record_2025-08-24T17-15-51Z.md: [Errno 2] No such file or directory: 'docs/edit_record_2025-08-24T17-15-51Z.md'
+2025-08-24 12:16:07,644 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_121607_4148dc40 ===
+2025-08-24 12:16:07,645 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-24 12:16:07,645 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250824_121607_645277_0000",
+  "session_id": "SESSION_20250824_121607_4148dc40",
+  "file_path": "docs/edit_record_2025-08-24T17-15-51Z.md",
+  "operation": "add",
+  "lines_before": "1-1",
+  "lines_after": "1-35",
+  "intent": "Create edit session record",
+  "hash_before": "5cc0ec9ee5f4b0bd",
+  "hash_after": "5cc0ec9ee5f4b0bd",
+  "copilot_request": "REQ_RECORD_003"
+}
+2025-08-24 12:16:07,645 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250824_121607_645277_0000:
+2025-08-24 12:16:07,645 [EDIT_INFO] ```
+
+```
+2025-08-24 12:16:07,646 [EDIT_INFO] CONTENT_ADDED_EDIT_20250824_121607_645277_0000:
+2025-08-24 12:16:07,646 [EDIT_INFO] ```
+created edit record for uploaded documents injection
+```
+2025-08-24 12:16:07,646 [EDIT_INFO] EDIT_VALIDATION: {
+  "edit_id": "EDIT_20250824_121607_645277_0000",
+  "validation_status": "success",
+  "validation_time": "2025-08-24T12:16:07.646194",
+  "error_details": "Created edit record file"
+}
+2025-08-24 13:29:57,486 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_132957_c124ea40 ===
+2025-08-24 13:29:57,486 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-24 13:29:57,486 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250824_132957_b5693b0a",
+  "description": "Fix session-created listener order for export PDF",
+  "start_time": "2025-08-24T13:29:57.486421",
+  "edit_count": 0
+}
+2025-08-24 13:29:57,486 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "public/js/app.js",
+  "snapshot_time": "2025-08-24T13:29:57.486817",
+  "file_hash": "5c4ea26088d999b7",
+  "line_count": 942
+}
+2025-08-24 16:19:57,153 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_161957_400d852a ===
+2025-08-24 16:19:57,153 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-24 16:19:57,153 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250824_161957_df6143af",
+  "description": "Update AUTH_SERVICE_URL default to unlocking-ai auth system",
+  "start_time": "2025-08-24T16:19:57.153470",
+  "edit_count": 0
+}
+2025-08-24 16:19:57,153 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "sso_client_utils.py",
+  "snapshot_time": "2025-08-24T16:19:57.153635",
+  "file_hash": "6028a18ee516edb0",
+  "line_count": 268
+}
+2025-08-24 16:20:18,320 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_162018_c79fc9c4 ===
+2025-08-24 16:20:18,320 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-24 16:20:18,320 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250824_162018_320575_0000",
+  "session_id": "SESSION_20250824_162018_c79fc9c4",
+  "file_path": "sso_client_utils.py",
+  "operation": "update",
+  "lines_before": "1-269",
+  "lines_after": "1-269",
+  "intent": "Update default AUTH_SERVICE_URL to unlocking-ai auth system",
+  "hash_before": "da927dbb33102192",
+  "hash_after": "da927dbb33102192",
+  "copilot_request": "REQ_UPDATE_AUTHURL_005"
+}
+2025-08-24 16:20:18,320 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250824_162018_320575_0000:
+2025-08-24 16:20:18,320 [EDIT_INFO] ```
+default auth url heros-auth-system-dev-616ac4829348
+```
+2025-08-24 16:20:18,320 [EDIT_INFO] CONTENT_ADDED_EDIT_20250824_162018_320575_0000:
+2025-08-24 16:20:18,320 [EDIT_INFO] ```
+default auth url updated to unlocking-ai-auth-system-0477b057b952
+```
+2025-08-24 16:20:18,321 [EDIT_INFO] DIFF_EDIT_20250824_162018_320575_0000:
+2025-08-24 16:20:18,321 [EDIT_INFO] DIFF_LINE: --- sso_client_utils.py (before)
+2025-08-24 16:20:18,321 [EDIT_INFO] DIFF_LINE: +++ sso_client_utils.py (after)
+2025-08-24 16:20:18,321 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-24 16:20:18,321 [EDIT_INFO] DIFF_LINE: -default auth url heros-auth-system-dev-616ac4829348
+2025-08-24 16:20:18,321 [EDIT_INFO] DIFF_LINE: +default auth url updated to unlocking-ai-auth-system-0477b057b952
+2025-08-24 16:20:18,321 [EDIT_INFO] EDIT_VALIDATION: {
+  "edit_id": "EDIT_20250824_162018_320575_0000",
+  "validation_status": "success",
+  "validation_time": "2025-08-24T16:20:18.321151",
+  "error_details": "Updated default AUTH_SERVICE_URL"
+}
+2025-08-24 16:32:52,348 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250824_163252_bee97e94 ===
+2025-08-24 16:32:52,349 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-24 16:32:52,349 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250824_163252_eb84a41e",
+  "description": "Commit: fix sso_client_utils indentation",
+  "start_time": "2025-08-24T16:32:52.349106",
+  "edit_count": 0
+}
+2025-08-24 16:32:52,349 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "sso_client_utils.py",
+  "snapshot_time": "2025-08-24T16:32:52.349350",
+  "file_hash": "c1a9cff5e4286c5d",
+  "line_count": 269
+}
+2025-08-26 14:29:53,393 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_142953_c1030044 ===
+2025-08-26 14:29:53,394 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-26 14:29:53,394 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250826_142953_384bbaef",
+  "description": "Fix web scraping LLM prompt to produce concise index + full cleaned content",
+  "start_time": "2025-08-26T14:29:53.394190",
+  "edit_count": 0
+}
+2025-08-26 14:30:16,972 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_143016_3e43bfb2 ===
+2025-08-26 14:30:16,973 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "/home/jerry/unlocking-ai/infoninja_app/web_scraper.py",
+  "snapshot_time": "2025-08-26T14:30:16.972960",
+  "file_hash": "be810998953e400b",
+  "line_count": 313
+}
+2025-08-26 14:30:48,626 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_143048_5bc8cbea ===
+2025-08-26 14:30:57,807 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_143057_c70c4268 ===
+2025-08-26 14:31:04,592 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_143104_db4b28f3 ===
+2025-08-26 14:31:13,775 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_143113_cd16719d ===
+2025-08-26 14:31:13,775 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-26 14:31:13,775 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250826_143113_775506_0000",
+  "session_id": "SESSION_20250826_143113_cd16719d",
+  "file_path": "/home/jerry/unlocking-ai/infoninja_app/web_scraper.py",
+  "operation": "replace",
+  "lines_before": "1-312",
+  "lines_after": "1-312",
+  "intent": "Fix web scraping to produce concise single-spaced index followed by complete cleaned article content - User reported web scraping only containing index, not cleaned content",
+  "hash_before": "07e902dd936690aa",
+  "hash_after": "07e902dd936690aa",
+  "copilot_request": "REQ_20250826_WebScraperPromptFix_001"
+}
+2025-08-26 14:31:13,775 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250826_143113_775506_0000:
+2025-08-26 14:31:13,775 [EDIT_INFO] ```
+Old generic LLM prompt for HTML cleaning
+```
+2025-08-26 14:31:13,775 [EDIT_INFO] CONTENT_ADDED_EDIT_20250826_143113_775506_0000:
+2025-08-26 14:31:13,775 [EDIT_INFO] ```
+New specific prompt that produces concise index at top + full cleaned content at bottom
+```
+2025-08-26 14:31:13,776 [EDIT_INFO] DIFF_EDIT_20250826_143113_775506_0000:
+2025-08-26 14:31:13,776 [EDIT_INFO] DIFF_LINE: --- /home/jerry/unlocking-ai/infoninja_app/web_scraper.py (before)
+2025-08-26 14:31:13,776 [EDIT_INFO] DIFF_LINE: +++ /home/jerry/unlocking-ai/infoninja_app/web_scraper.py (after)
+2025-08-26 14:31:13,776 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-26 14:31:13,776 [EDIT_INFO] DIFF_LINE: -Old generic LLM prompt for HTML cleaning
+2025-08-26 14:31:13,776 [EDIT_INFO] DIFF_LINE: +New specific prompt that produces concise index at top + full cleaned content at bottom
+2025-08-26 14:31:32,548 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_143132_1d19c933 ===
+2025-08-26 16:04:39,174 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_160439_0c638203 ===
+2025-08-26 16:04:39,174 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-26 16:04:39,174 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250826_160439_1df6d124",
+  "description": "Enhance LLM prompt to extract author from content when HTML parsing fails",
+  "start_time": "2025-08-26T16:04:39.174170",
+  "edit_count": 0
+}
+2025-08-26 16:04:51,998 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_160451_06b946a1 ===
+2025-08-26 16:04:51,998 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "/home/jerry/unlocking-ai/infoninja_app/web_scraper.py",
+  "snapshot_time": "2025-08-26T16:04:51.998615",
+  "file_hash": "07e902dd936690aa",
+  "line_count": 312
+}
+2025-08-26 16:05:24,175 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_160524_eee51ea5 ===
+2025-08-26 16:05:24,175 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-26 16:05:24,175 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250826_160524_175559_0000",
+  "session_id": "SESSION_20250826_160524_eee51ea5",
+  "file_path": "/home/jerry/unlocking-ai/infoninja_app/web_scraper.py",
+  "operation": "replace",
+  "lines_before": "1-313",
+  "lines_after": "1-313",
+  "intent": "Fix missing author extraction - LLM now extracts author from title/content patterns like \"by [Author Name]\" when HTML parsing returns None",
+  "hash_before": "1ec4c6f52fb541a8",
+  "hash_after": "1ec4c6f52fb541a8",
+  "copilot_request": "REQ_20250826_AuthorExtractionFix_001"
+}
+2025-08-26 16:05:24,176 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250826_160524_175559_0000:
+2025-08-26 16:05:24,176 [EDIT_INFO] ```
+Basic LLM prompt without author extraction instructions
+```
+2025-08-26 16:05:24,176 [EDIT_INFO] CONTENT_ADDED_EDIT_20250826_160524_175559_0000:
+2025-08-26 16:05:24,176 [EDIT_INFO] ```
+Enhanced LLM prompt with specific author extraction instructions for when HTML parsing fails
+```
+2025-08-26 16:05:24,176 [EDIT_INFO] DIFF_EDIT_20250826_160524_175559_0000:
+2025-08-26 16:05:24,176 [EDIT_INFO] DIFF_LINE: --- /home/jerry/unlocking-ai/infoninja_app/web_scraper.py (before)
+2025-08-26 16:05:24,176 [EDIT_INFO] DIFF_LINE: +++ /home/jerry/unlocking-ai/infoninja_app/web_scraper.py (after)
+2025-08-26 16:05:24,176 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-26 16:05:24,176 [EDIT_INFO] DIFF_LINE: -Basic LLM prompt without author extraction instructions
+2025-08-26 16:05:24,176 [EDIT_INFO] DIFF_LINE: +Enhanced LLM prompt with specific author extraction instructions for when HTML parsing fails
+2025-08-26 16:05:52,111 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_160552_70bfe556 ===
+2025-08-26 16:14:22,338 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_161422_1f00ec0a ===
+2025-08-26 16:14:22,339 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-26 16:14:22,339 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250826_161422_96a18505",
+  "description": "Document web scraping LLM prompt enhancement in KnowledgeNinja docs",
+  "start_time": "2025-08-26T16:14:22.339092",
+  "edit_count": 0
+}
+2025-08-26 16:14:55,254 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_161455_23ed4824 ===
+2025-08-26 16:14:55,254 [EDIT_ERROR] Failed to read file /home/jerry/unlocking-ai/unlockingai.docs/infoninja.docs/: [Errno 21] Is a directory: '/home/jerry/unlocking-ai/unlockingai.docs/infoninja.docs/'
+2025-08-26 16:16:21,352 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_161621_9e53aefe ===
+2025-08-26 16:16:21,353 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-26 16:16:21,353 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250826_161621_352965_0000",
+  "session_id": "SESSION_20250826_161621_9e53aefe",
+  "file_path": "/home/jerry/unlocking-ai/unlockingai.docs/infoninja.docs/2025-08-26_web-scraping-author-extraction-fix.md",
+  "operation": "create",
+  "lines_before": "1-106",
+  "lines_after": "1-106",
+  "intent": "Document the web scraping fix that enables proper author extraction from webpage titles and content when HTML parsing fails",
+  "hash_before": "525f60a07e9828a3",
+  "hash_after": "525f60a07e9828a3",
+  "copilot_request": "REQ_20250826_InfoNinjaDocUpdate_001"
+}
+2025-08-26 16:16:21,353 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250826_161621_352965_0000:
+2025-08-26 16:16:21,353 [EDIT_INFO] ```
+N/A - new file creation
+```
+2025-08-26 16:16:21,353 [EDIT_INFO] CONTENT_ADDED_EDIT_20250826_161621_352965_0000:
+2025-08-26 16:16:21,353 [EDIT_INFO] ```
+Comprehensive documentation of web scraping LLM prompt enhancement for author extraction
+```
+2025-08-26 16:16:21,353 [EDIT_INFO] DIFF_EDIT_20250826_161621_352965_0000:
+2025-08-26 16:16:21,353 [EDIT_INFO] DIFF_LINE: --- /home/jerry/unlocking-ai/unlockingai.docs/infoninja.docs/2025-08-26_web-scraping-author-extraction-fix.md (before)
+2025-08-26 16:16:21,353 [EDIT_INFO] DIFF_LINE: +++ /home/jerry/unlocking-ai/unlockingai.docs/infoninja.docs/2025-08-26_web-scraping-author-extraction-fix.md (after)
+2025-08-26 16:16:21,353 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-26 16:16:21,353 [EDIT_INFO] DIFF_LINE: -N/A - new file creation
+2025-08-26 16:16:21,353 [EDIT_INFO] DIFF_LINE: +Comprehensive documentation of web scraping LLM prompt enhancement for author extraction
+2025-08-26 16:16:36,946 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_161636_3c5a59f4 ===
+2025-08-26 16:20:57,974 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_162057_0b3a1148 ===
+2025-08-26 16:20:57,974 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-26 16:20:57,974 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250826_162057_f5b35518",
+  "description": "Create introductory social media posts for UnlockingAI marketing campaign",
+  "start_time": "2025-08-26T16:20:57.974430",
+  "edit_count": 0
+}
+2025-08-26 16:23:10,304 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_162310_69963b91 ===
+2025-08-26 16:23:10,304 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-26 16:23:10,304 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250826_162310_e657ca2f",
+  "description": "Create introductory social media posts for UnlockingAI campaign 8.26.25",
+  "start_time": "2025-08-26T16:23:10.304482",
+  "edit_count": 0
+}
+2025-08-26 16:24:11,908 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_162411_08e8f1fd ===
+2025-08-26 16:24:11,908 [EDIT_ERROR] Failed to read file /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/: [Errno 21] Is a directory: '/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/'
+2025-08-26 16:28:02,538 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_162802_0930d173 ===
+2025-08-26 16:28:02,538 [EDIT_ERROR] Failed to read file /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/: [Errno 21] Is a directory: '/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/'
+2025-08-26 16:28:02,538 [EDIT_ERROR] Failed to read file /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/: [Errno 21] Is a directory: '/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/'
+2025-08-26 16:28:02,538 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-26 16:28:02,538 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250826_162802_538459_0000",
+  "session_id": "SESSION_20250826_162802_0930d173",
+  "file_path": "/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/",
+  "operation": "create_multiple",
+  "lines_before": "1-1",
+  "lines_after": "1-1",
+  "intent": "Create comprehensive social media launch campaign for UnlockingAI platform introduction across all major platforms using established templates",
+  "hash_before": "e3b0c44298fc1c14",
+  "hash_after": "e3b0c44298fc1c14",
+  "copilot_request": "REQ_20250826_SocialCampaign_001"
+}
+2025-08-26 16:28:02,538 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250826_162802_538459_0000:
+2025-08-26 16:28:02,538 [EDIT_INFO] ```
+Empty directory
+```
+2025-08-26 16:28:02,538 [EDIT_INFO] CONTENT_ADDED_EDIT_20250826_162802_538459_0000:
+2025-08-26 16:28:02,538 [EDIT_INFO] ```
+Complete introductory social media campaign: 8 posts across 7 platforms (Facebook, Instagram, TikTok, YouTube, WhatsApp, Patreon, ProductHunt) plus campaign overview
+```
+2025-08-26 16:28:02,538 [EDIT_INFO] DIFF_EDIT_20250826_162802_538459_0000:
+2025-08-26 16:28:02,538 [EDIT_INFO] DIFF_LINE: --- /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/ (before)
+2025-08-26 16:28:02,539 [EDIT_INFO] DIFF_LINE: +++ /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/ (after)
+2025-08-26 16:28:02,539 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-26 16:28:02,539 [EDIT_INFO] DIFF_LINE: -Empty directory
+2025-08-26 16:28:02,539 [EDIT_INFO] DIFF_LINE: +Complete introductory social media campaign: 8 posts across 7 platforms (Facebook, Instagram, TikTok, YouTube, WhatsApp, Patreon, ProductHunt) plus campaign overview
+2025-08-26 16:28:10,739 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_162810_26e251f9 ===
+2025-08-26 16:44:28,707 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_164428_7b90d383 ===
+2025-08-26 16:44:28,707 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-26 16:44:28,707 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250826_164428_c3fc0aac",
+  "description": "Fix Facebook post button format - remove markdown badge syntax",
+  "start_time": "2025-08-26T16:44:28.707296",
+  "edit_count": 0
+}
+2025-08-26 16:44:36,034 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_164436_a472b8a1 ===
+2025-08-26 16:44:36,035 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md",
+  "snapshot_time": "2025-08-26T16:44:36.035243",
+  "file_hash": "49cdff344651030a",
+  "line_count": 30
+}
+2025-08-26 16:44:57,470 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_164457_b26b9bb4 ===
+2025-08-26 16:44:57,470 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-26 16:44:57,471 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250826_164457_470860_0000",
+  "session_id": "SESSION_20250826_164457_b26b9bb4",
+  "file_path": "/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md",
+  "operation": "replace",
+  "lines_before": "1-31",
+  "lines_after": "1-31",
+  "intent": "Fix Facebook post format - remove markdown badge that wont render as button, use proper Facebook CTA button specification instead",
+  "hash_before": "10ea7ead6c80420e",
+  "hash_after": "10ea7ead6c80420e",
+  "copilot_request": "REQ_20250826_FacebookButtonFix_001"
+}
+2025-08-26 16:44:57,471 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250826_164457_470860_0000:
+2025-08-26 16:44:57,471 [EDIT_INFO] ```
+Markdown badge syntax for CTA button
+```
+2025-08-26 16:44:57,471 [EDIT_INFO] CONTENT_ADDED_EDIT_20250826_164457_470860_0000:
+2025-08-26 16:44:57,471 [EDIT_INFO] ```
+Proper Facebook CTA button format specification
+```
+2025-08-26 16:44:57,471 [EDIT_INFO] DIFF_EDIT_20250826_164457_470860_0000:
+2025-08-26 16:44:57,471 [EDIT_INFO] DIFF_LINE: --- /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md (before)
+2025-08-26 16:44:57,471 [EDIT_INFO] DIFF_LINE: +++ /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md (after)
+2025-08-26 16:44:57,471 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-26 16:44:57,471 [EDIT_INFO] DIFF_LINE: -Markdown badge syntax for CTA button
+2025-08-26 16:44:57,471 [EDIT_INFO] DIFF_LINE: +Proper Facebook CTA button format specification
+2025-08-26 16:45:13,090 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_164513_6772c722 ===
+2025-08-26 16:46:36,754 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_164636_f9da8d8a ===
+2025-08-26 16:46:36,754 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-26 16:46:36,755 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250826_164636_16e660eb",
+  "description": "Separate Facebook post content from CTA button instructions",
+  "start_time": "2025-08-26T16:46:36.754982",
+  "edit_count": 0
+}
+2025-08-26 16:46:43,906 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_164643_ee18e807 ===
+2025-08-26 16:46:43,907 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md",
+  "snapshot_time": "2025-08-26T16:46:43.907382",
+  "file_hash": "10ea7ead6c80420e",
+  "line_count": 31
+}
+2025-08-26 16:47:14,019 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_164714_5c3a57dc ===
+2025-08-26 16:47:14,020 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-26 16:47:14,020 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250826_164714_019835_0000",
+  "session_id": "SESSION_20250826_164714_5c3a57dc",
+  "file_path": "/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md",
+  "operation": "replace",
+  "lines_before": "1-41",
+  "lines_after": "1-41",
+  "intent": "Fix Facebook post structure - separate actual post content from backend instructions so CTA button instructions dont appear in post text",
+  "hash_before": "e61f02f08702f943",
+  "hash_after": "e61f02f08702f943",
+  "copilot_request": "REQ_20250826_FacebookStructureFix_001"
+}
+2025-08-26 16:47:14,020 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250826_164714_019835_0000:
+2025-08-26 16:47:14,020 [EDIT_INFO] ```
+Mixed post content with CTA instructions and UTM parameters in post text
+```
+2025-08-26 16:47:14,020 [EDIT_INFO] CONTENT_ADDED_EDIT_20250826_164714_019835_0000:
+2025-08-26 16:47:14,020 [EDIT_INFO] ```
+Separated clean post text from technical instructions - removed UTM from visible post content
+```
+2025-08-26 16:47:14,020 [EDIT_INFO] DIFF_EDIT_20250826_164714_019835_0000:
+2025-08-26 16:47:14,020 [EDIT_INFO] DIFF_LINE: --- /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md (before)
+2025-08-26 16:47:14,020 [EDIT_INFO] DIFF_LINE: +++ /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md (after)
+2025-08-26 16:47:14,020 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-26 16:47:14,020 [EDIT_INFO] DIFF_LINE: -Mixed post content with CTA instructions and UTM parameters in post text
+2025-08-26 16:47:14,020 [EDIT_INFO] DIFF_LINE: +Separated clean post text from technical instructions - removed UTM from visible post content
+2025-08-26 16:47:26,839 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_164726_77f43207 ===
+2025-08-26 16:48:39,931 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_164839_8519c1ce ===
+2025-08-26 16:48:39,932 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-26 16:48:39,932 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250826_164839_455fc88c",
+  "description": "Clean Facebook post - remove all technical specifications from post text",
+  "start_time": "2025-08-26T16:48:39.932060",
+  "edit_count": 0
+}
+2025-08-26 16:48:52,674 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_164852_185227da ===
+2025-08-26 16:48:52,675 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md",
+  "snapshot_time": "2025-08-26T16:48:52.674985",
+  "file_hash": "e61f02f08702f943",
+  "line_count": 41
+}
+2025-08-26 16:49:47,259 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_164947_858506de ===
+2025-08-26 16:49:47,260 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-26 16:49:47,260 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250826_164947_2da8a307",
+  "description": "Completely separate Facebook post text from technical instructions",
+  "start_time": "2025-08-26T16:49:47.260161",
+  "edit_count": 0
+}
+2025-08-26 16:50:12,946 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_165012_f776000b ===
+2025-08-26 16:50:12,946 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md",
+  "snapshot_time": "2025-08-26T16:50:12.946346",
+  "file_hash": "faa6f594a3ee01cb",
+  "line_count": 39
+}
+2025-08-26 16:50:42,131 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_165042_5baa308a ===
+2025-08-26 16:50:42,131 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-26 16:50:42,131 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250826_165042_131604_0000",
+  "session_id": "SESSION_20250826_165042_5baa308a",
+  "file_path": "/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md",
+  "operation": "replace",
+  "lines_before": "1-38",
+  "lines_after": "1-38",
+  "intent": "Complete separation of Facebook post text from technical instructions - clear ACTUAL POST TEXT section that can be directly copied to Facebook",
+  "hash_before": "20e7c226c074c999",
+  "hash_after": "20e7c226c074c999",
+  "copilot_request": "REQ_20250826_FacebookCleanSeparation_001"
+}
+2025-08-26 16:50:42,131 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250826_165042_131604_0000:
+2025-08-26 16:50:42,131 [EDIT_INFO] ```
+Mixed post content with confusing structure and labels
+```
+2025-08-26 16:50:42,131 [EDIT_INFO] CONTENT_ADDED_EDIT_20250826_165042_131604_0000:
+2025-08-26 16:50:42,131 [EDIT_INFO] ```
+Clean separation: ACTUAL POST TEXT section for copying, TECHNICAL SETUP section for internal use only
+```
+2025-08-26 16:50:42,132 [EDIT_INFO] DIFF_EDIT_20250826_165042_131604_0000:
+2025-08-26 16:50:42,132 [EDIT_INFO] DIFF_LINE: --- /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md (before)
+2025-08-26 16:50:42,132 [EDIT_INFO] DIFF_LINE: +++ /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md (after)
+2025-08-26 16:50:42,132 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-26 16:50:42,132 [EDIT_INFO] DIFF_LINE: -Mixed post content with confusing structure and labels
+2025-08-26 16:50:42,132 [EDIT_INFO] DIFF_LINE: +Clean separation: ACTUAL POST TEXT section for copying, TECHNICAL SETUP section for internal use only
+2025-08-26 16:50:57,081 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_165057_79bc463b ===
+2025-08-26 16:53:29,830 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_165329_c58ae858 ===
+2025-08-26 16:53:29,830 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-26 16:53:29,830 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250826_165329_9cf1ad69",
+  "description": "Add UTM parameters to Facebook post URL for proper tracking",
+  "start_time": "2025-08-26T16:53:29.830291",
+  "edit_count": 0
+}
+2025-08-26 16:53:37,468 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_165337_0ff903f8 ===
+2025-08-26 16:53:37,469 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md",
+  "snapshot_time": "2025-08-26T16:53:37.469116",
+  "file_hash": "20e7c226c074c999",
+  "line_count": 38
+}
+2025-08-26 16:54:11,476 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_165411_528eca2b ===
+2025-08-26 16:54:11,476 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-26 16:54:11,476 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250826_165411_476677_0000",
+  "session_id": "SESSION_20250826_165411_528eca2b",
+  "file_path": "/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md",
+  "operation": "replace",
+  "lines_before": "1-35",
+  "lines_after": "1-35",
+  "intent": "Move UTM tracking parameters to where they belong - directly in the post URL rather than separate instructions",
+  "hash_before": "5165a1e7d1bedbd2",
+  "hash_after": "5165a1e7d1bedbd2",
+  "copilot_request": "REQ_20250826_FacebookUTMIntegration_001"
+}
+2025-08-26 16:54:11,477 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250826_165411_476677_0000:
+2025-08-26 16:54:11,477 [EDIT_INFO] ```
+Separate UTM parameters in technical section
+```
+2025-08-26 16:54:11,477 [EDIT_INFO] CONTENT_ADDED_EDIT_20250826_165411_476677_0000:
+2025-08-26 16:54:11,477 [EDIT_INFO] ```
+UTM parameters integrated directly into post URL for proper tracking
+```
+2025-08-26 16:54:11,477 [EDIT_INFO] DIFF_EDIT_20250826_165411_476677_0000:
+2025-08-26 16:54:11,477 [EDIT_INFO] DIFF_LINE: --- /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md (before)
+2025-08-26 16:54:11,477 [EDIT_INFO] DIFF_LINE: +++ /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md (after)
+2025-08-26 16:54:11,477 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-26 16:54:11,477 [EDIT_INFO] DIFF_LINE: -Separate UTM parameters in technical section
+2025-08-26 16:54:11,477 [EDIT_INFO] DIFF_LINE: +UTM parameters integrated directly into post URL for proper tracking
+2025-08-26 16:54:19,304 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_165419_f9a0bf66 ===
+2025-08-26 16:56:12,498 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_165612_3cd21f45 ===
+2025-08-26 16:56:12,499 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-26 16:56:12,499 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250826_165612_67d6046a",
+  "description": "Add UTM tracking info back to technical setup section",
+  "start_time": "2025-08-26T16:56:12.499107",
+  "edit_count": 0
+}
+2025-08-26 16:56:20,626 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_165620_39675dfa ===
+2025-08-26 16:56:20,627 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md",
+  "snapshot_time": "2025-08-26T16:56:20.627100",
+  "file_hash": "5165a1e7d1bedbd2",
+  "line_count": 35
+}
+2025-08-26 16:56:42,610 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_165642_07cc18c3 ===
+2025-08-26 16:56:42,610 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-26 16:56:42,610 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250826_165642_610316_0000",
+  "session_id": "SESSION_20250826_165642_07cc18c3",
+  "file_path": "/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md",
+  "operation": "replace",
+  "lines_before": "1-41",
+  "lines_after": "1-41",
+  "intent": "Add UTM tracking information back to technical setup section for campaign tracking reference",
+  "hash_before": "6c169d7d0efda4a5",
+  "hash_after": "6c169d7d0efda4a5",
+  "copilot_request": "REQ_20250826_FacebookUTMReference_001"
+}
+2025-08-26 16:56:42,610 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250826_165642_610316_0000:
+2025-08-26 16:56:42,610 [EDIT_INFO] ```
+Basic media brief only in technical setup
+```
+2025-08-26 16:56:42,610 [EDIT_INFO] CONTENT_ADDED_EDIT_20250826_165642_610316_0000:
+2025-08-26 16:56:42,610 [EDIT_INFO] ```
+Media brief plus detailed UTM tracking parameters breakdown for reference
+```
+2025-08-26 16:56:42,610 [EDIT_INFO] DIFF_EDIT_20250826_165642_610316_0000:
+2025-08-26 16:56:42,610 [EDIT_INFO] DIFF_LINE: --- /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md (before)
+2025-08-26 16:56:42,610 [EDIT_INFO] DIFF_LINE: +++ /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialsPosts/8.26.25 UnlockingAI/facebook_intro_post_8.26.25.md (after)
+2025-08-26 16:56:42,610 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-26 16:56:42,610 [EDIT_INFO] DIFF_LINE: -Basic media brief only in technical setup
+2025-08-26 16:56:42,610 [EDIT_INFO] DIFF_LINE: +Media brief plus detailed UTM tracking parameters breakdown for reference
+2025-08-26 16:56:53,907 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_165653_6586fd9e ===
+2025-08-26 16:58:35,406 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_165835_dac3ed10 ===
+2025-08-26 16:58:35,406 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-26 16:58:35,406 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250826_165835_92dbda5a",
+  "description": "Update Facebook post template based on successful post format",
+  "start_time": "2025-08-26T16:58:35.406569",
+  "edit_count": 0
+}
+2025-08-26 16:58:42,780 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_165842_e65934e0 ===
+2025-08-26 16:58:42,780 [EDIT_INFO] FILE_SNAPSHOT_CAPTURED: {
+  "file_path": "/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialPostTemplates/facebook_post_template.md",
+  "snapshot_time": "2025-08-26T16:58:42.780354",
+  "file_hash": "e378df0586d7aeee",
+  "line_count": 22
+}
+2025-08-26 16:59:11,059 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_165911_1b602363 ===
+2025-08-26 16:59:11,059 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-26 16:59:11,059 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250826_165911_059660_0000",
+  "session_id": "SESSION_20250826_165911_1b602363",
+  "file_path": "/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialPostTemplates/facebook_post_template.md",
+  "operation": "replace",
+  "lines_before": "1-41",
+  "lines_after": "1-41",
+  "intent": "Update Facebook template to match the proven post format with clean separation between post content and technical instructions",
+  "hash_before": "cbf40f41cc791d8a",
+  "hash_after": "cbf40f41cc791d8a",
+  "copilot_request": "REQ_20250826_FacebookTemplateUpdate_001"
+}
+2025-08-26 16:59:11,059 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250826_165911_059660_0000:
+2025-08-26 16:59:11,060 [EDIT_INFO] ```
+Old mixed template format without proper separation
+```
+2025-08-26 16:59:11,060 [EDIT_INFO] CONTENT_ADDED_EDIT_20250826_165911_059660_0000:
+2025-08-26 16:59:11,060 [EDIT_INFO] ```
+Updated template with clean ACTUAL POST TEXT section separated from TECHNICAL SETUP - matches successful post structure
+```
+2025-08-26 16:59:11,060 [EDIT_INFO] DIFF_EDIT_20250826_165911_059660_0000:
+2025-08-26 16:59:11,060 [EDIT_INFO] DIFF_LINE: --- /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialPostTemplates/facebook_post_template.md (before)
+2025-08-26 16:59:11,060 [EDIT_INFO] DIFF_LINE: +++ /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/Campaigns/UnlockingAI/SocialPostTemplates/facebook_post_template.md (after)
+2025-08-26 16:59:11,060 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-26 16:59:11,060 [EDIT_INFO] DIFF_LINE: -Old mixed template format without proper separation
+2025-08-26 16:59:11,060 [EDIT_INFO] DIFF_LINE: +Updated template with clean ACTUAL POST TEXT section separated from TECHNICAL SETUP - matches successful post structure
+2025-08-26 16:59:23,740 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_165923_c857c67a ===
+2025-08-26 17:03:44,587 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_170344_c14b7d1b ===
+2025-08-26 17:03:44,587 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-26 17:03:44,587 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250826_170344_a6d3fb0c",
+  "description": "Create marketing activity record for UnlockingAI social media campaign creation and template improvements",
+  "start_time": "2025-08-26T17:03:44.587829",
+  "edit_count": 0
+}
+2025-08-26 17:03:54,096 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_170354_b1da1212 ===
+2025-08-26 17:03:54,096 [EDIT_ERROR] Failed to read file /home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/: [Errno 21] Is a directory: '/home/jerry/unlocking-ai/unlockingai.docs/marketing.docs/'
+2025-08-26 17:05:45,785 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250826_170545_af47f3f2 ===
+2025-08-27 08:38:53,178 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250827_083853_6b131cb2 ===
+2025-08-27 08:38:53,179 [EDIT_INFO] === EDIT SESSION START ===
+2025-08-27 08:38:53,179 [EDIT_INFO] SESSION_INFO: {
+  "session_id": "SESSION_20250827_083853_4083acc0",
+  "description": "Debug document upload flow in infoninja_app",
+  "start_time": "2025-08-27T08:38:53.179423",
+  "edit_count": 0
+}
+2025-08-27 08:39:33,834 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250827_083933_aac3da80 ===
+2025-08-27 08:39:42,365 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250827_083942_da2c7d0e ===
+2025-08-27 08:39:42,366 [EDIT_INFO] === EDIT OPERATION LOGGED ===
+2025-08-27 08:39:42,367 [EDIT_INFO] EDIT_SUMMARY: {
+  "edit_id": "EDIT_20250827_083942_365794_0000",
+  "session_id": "SESSION_20250827_083942_da2c7d0e",
+  "file_path": "public/js/app.js",
+  "operation": "replace",
+  "lines_before": "1-955",
+  "lines_after": "1-955",
+  "intent": "Fixed document upload UI sync issue by replacing displayUploadedFile() with loadUserDocuments() to refresh document list from server",
+  "hash_before": "a28e81e3781744e5",
+  "hash_after": "a28e81e3781744e5",
+  "copilot_request": "REQ_DEBUG_001"
+}
+2025-08-27 08:39:42,367 [EDIT_INFO] CONTENT_REMOVED_EDIT_20250827_083942_365794_0000:
+2025-08-27 08:39:42,367 [EDIT_INFO] ```
+this.displayUploadedFile(processedFilename);
+```
+2025-08-27 08:39:42,367 [EDIT_INFO] CONTENT_ADDED_EDIT_20250827_083942_365794_0000:
+2025-08-27 08:39:42,367 [EDIT_INFO] ```
+await this.loadUserDocuments();
+```
+2025-08-27 08:39:42,367 [EDIT_INFO] DIFF_EDIT_20250827_083942_365794_0000:
+2025-08-27 08:39:42,367 [EDIT_INFO] DIFF_LINE: --- public/js/app.js (before)
+2025-08-27 08:39:42,367 [EDIT_INFO] DIFF_LINE: +++ public/js/app.js (after)
+2025-08-27 08:39:42,367 [EDIT_INFO] DIFF_LINE: @@ -1 +1 @@
+2025-08-27 08:39:42,367 [EDIT_INFO] DIFF_LINE: -this.displayUploadedFile(processedFilename);
+2025-08-27 08:39:42,367 [EDIT_INFO] DIFF_LINE: +await this.loadUserDocuments();
+2025-08-27 08:39:50,049 [EDIT_INFO] === EDIT TRACKING SESSION STARTED: SESSION_20250827_083950_4c753b75 ===

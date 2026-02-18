@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  chatbot:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - FLASK_ENV=production
+      - PORT=3000
+      - AUTH_SERVICE_URL=https://unlocking-ai-auth-system-0477b057b952.herokuapp.com
+      - SSO_SECRET_KEY=${SSO_SECRET_KEY}
+      - SECRET_KEY=${SECRET_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - TEST_SSO_TOKEN=${TEST_SSO_TOKEN}
+    volumes:
+      - ./uploads:/app/uploads
+      - ./temp:/app/temp
+      - ./logs:/app/logs
+      - ./data:/app/data
+    networks:
+      - chatbot-network
+    env_file:
+      - .env
+
+networks:
+  chatbot-network:
+    driver: bridge
